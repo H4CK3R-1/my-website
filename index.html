@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSecurity Services</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-dark.min.css">
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+        }
+        .navbar {
+            background-color: #444;
+        }
+        .navbar-brand {
+            color: #fff;
+        }
+        .nav-link {
+            color: #ccc;
+        }
+        .nav-link:hover {
+            color: #fff;
+        }
+        .card {
+            background-color: #444;
+            border: 1px solid #555;
+        }
+        .card-header {
+            background-color: #555;
+            border-bottom: 1px solid #666;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .blog-post {
+            background-color: #444;
+            border: 1px solid #555;
+            margin-bottom: 20px;
+        }
+        .blog-post-header {
+            background-color: #555;
+            border-bottom: 1px solid #666;
+            padding: 10px;
+        }
+        .blog-post-body {
+            padding: 20px;
+        }
+        .contact-form {
+            background-color: #444;
+            border: 1px solid #555;
+            padding: 20px;
+        }
+        .contact-form label {
+            color: #ccc;
+        }
+        .contact-form input, .contact-form textarea {
+            background-color: #555;
+            border: 1px solid #666;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">CyberSecurity Services</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tools">Tools & Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="mt-5">Welcome to CyberSecurity Services</h1>
+                <p>We provide professional pentesting, web testing, and bug bounty services to help you secure your online presence.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#servicesModal">Learn More</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="services">
+                <h2 class="mt-5">Our Services</h2>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Pentesting</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>We perform thorough pentesting to identify vulnerabilities in your system and provide recommendations for remediation.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Web Testing</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>We test your web applications for security vulnerabilities and provide recommendations for secure coding practices.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Bug Bounty</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>We manage bug bounty programs to encourage responsible disclosure of security vulnerabilities in your system.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="tools">
+                <h2 class="mt-5">Tools & Resources</h2>
+                <ul>
+                    <li>OWASP ZAP</li>
+                    <li>Burp Suite</li>
+                    <li>Nmap</li>
+                    <li>Metasploit</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="blog">
+                <h2 class="mt-5">Blog</h2>
+                <div class="blog-post">
+                    <div class="blog-post-header">
+                        <h3>Recent Security Updates</h3>
+                    </div>
+                    <div class="blog-post-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <div class="blog-post-header">
+                        <h3>Cybersecurity Trends</h3>
+                    </div>
+                    <div class="blog-post-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="contact">
+                <h2 class="mt-5">Contact Us</h2>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="servicesModal" tabindex="-1" role="dialog" aria-labelledby="servicesModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="servicesModalLabel">Our Services</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>We provide professional pentesting, web testing, and bug bounty services to help you secure your online presence.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#servicesModal').modal('show');
+        });
+    </script>
+</body>
+</html>
